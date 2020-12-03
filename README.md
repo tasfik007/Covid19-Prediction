@@ -1,3 +1,67 @@
+# **COVID-19 Prediction through Convolutional Neural Network Project Manual**
+
+The project consists of two major segments, which can be found in the folder named “Project Files”. 
+
+First One is the Jupyter Notebook (a .ipynb file), which consists of the actual work. As it was created in google colab thats why to run this notebook we don’t need to worry about any dependencies or package installations, what we do need is a stable internet connection to open this notebook in google colab. After that we won't face any problems running each cell.
+
+
+![alt_text](https://i.ibb.co/mH8Cjp7/ff1.png")
+
+
+Fig-1: Google Colab Jupyter Notebook
+
+For more convenient here is the Google Colab Jupyter Notebook Link:  \
+[https://colab.research.google.com/drive/1IqxPYdg94sMKmbeMTkfCOPhvLBeuwauc?usp=sharing](https://colab.research.google.com/drive/1IqxPYdg94sMKmbeMTkfCOPhvLBeuwauc?usp=sharing)
+
+Just click on the link, and we are good to go to run each & every cell.
+
+Second One is the web app (a covid.py file) 
+
+Location:  201714039_Tasfik_SEC-A_Pattern_Project\Project Files\Covid19-model\covid.py, which is the user interface to interact with the research work. To run this project you need to install below python packages & libraries:
+
+
+
+1. Flask
+2. Numpy
+3. Tensorflow
+4. Base64
+5. PIL
+6. io
+
+After successfully installing all the above mentioned packages, we have to open the windows terminal and go to the location where  the covid.py file is. Then we have to type the following commands in the terminal-
+
+
+
+1. Set FLASK_APP=covid
+2. flask run
+
+![alt_text](https://i.ibb.co/RyGfdyB/ff2.png)
+
+
+Fig-2.1: Running flask app from the terminal
+
+We can ignore the warnings and if it runs successfully then our web app will be available at this address [http://localhost:5000/static/predict.html](http://localhost:5000/static/predict.html) . 
+
+We can goto the above address and there we will find an option to choose an image button, which will lead us to our gallery where we can choose any x-ray image that we want to predict if it is covid positive or not.
+
+![alt_text](https://i.ibb.co/0XtPCtn/ff3.png)
+
+
+Fig-2.2: COVID19 Prediction Web APP
+
+After uploading the image, we can see the uploaded image in the browser, now the only thing that we need to do is to push the predict button and within a few seconds we will be able to see the results.
+
+
+![alt_text](https://i.ibb.co/v4HQwTP/ff4.png)
+
+
+Fig-2.3: COVID19 Prediction Result
+
+**To exit from the web app, we must close the running terminal and then close the browser
+
+
+
+
 # Title:
 
 **“COVID19 Prediction Using Convolutional Neural Network”**
