@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>COVID19 Prediction</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+        integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+        <!-- <link rel= "stylesheet" type= "text/css" href= "styles/style.css">-->
+    <style>
+        body{
+            background-image: url("bg3.jpg");
+            background-size: cover;
+        }
+
+        .content{
+            margin-top:50px;
+        }
+
+        #selected-image{
+            max-height: 150px;
+        }
+        .danger{
+            color: red;
+            font-size: 100px;
+        }
+        .safe{
+            color: green;
+            font-size: 100px;
+        }
+
+        .pbtn{
+            width: 150px;
+            height: 50px;
+        }
+    </style>
+
+
+</head>
+<body>
+
+    <section class="main-content">
+        <div class="container">
+            <div class="content">
+                <center>
+                    <input type="file" id="image-selector"> <br><br>
+                    <button id="predict-button" class="pbtn"">Predict</button>
+                </center> <br> <br>
+                
+                <center>
+                    <img src="" alt="" id="selected-image">
+                    <p>Result: </p>
+                    <h3 class="result"><span id="covid-result"></span> </h3>
+                </center>
+                
+            </div>
+        </div>
+    </section>
+
+
+    
+
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
